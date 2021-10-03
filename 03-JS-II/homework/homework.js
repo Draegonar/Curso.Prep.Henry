@@ -164,7 +164,7 @@ function esPrimo(numero) {
   if (numero === 2) {
     return true;
   }
-  for (var i = 2 ; i < numero ; i++) {
+  for (var i = 2 ;i < numero ; i++) {
     if (numero % i === 0) {
       var j = 1;
     }
@@ -191,7 +191,7 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   let tabla = []
   for (var i = 0 ; i < 11 ; i++) {
-    tabla.push = (6 * i);
+    tabla.push(6 * i);
   }
   return tabla;
 }
